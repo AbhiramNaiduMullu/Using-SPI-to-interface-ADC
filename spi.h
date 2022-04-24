@@ -6,7 +6,7 @@ It has functions to initialize spi module and to communicate with SPI slave
 //preprocessor directives for guarding against multiple inclusion of header files, read compiler user guide for more information
 
 #ifndef spi_h																						//if identifier spi_h is not defined then goto next line
-	#define spi_h 1																				//Define spi_h identifier and assign constant 1 to it 
+#define spi_h 1																				//Define spi_h identifier and assign constant 1 to it 
 #endif																									//end if directive
 
 //Declaration of functions which are contained in this header file
